@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../include/cal.h
+iostream
+-
+
+/root/cmake_test/test/unittest/src/CalTest.cpp
+gtest/gtest.h
+/root/cmake_test/test/unittest/src/gtest/gtest.h
+cal.h
+/root/cmake_test/test/unittest/src/cal.h
+
+/root/cmake_test/test/unittest/src/main.cpp
+gtest/gtest.h
+/root/cmake_test/test/unittest/src/gtest/gtest.h
+
